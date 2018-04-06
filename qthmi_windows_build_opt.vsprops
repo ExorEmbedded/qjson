@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="qthmi_windows_build_opt"
+	OutputDirectory="$(SolutionDir)\..\QtHmi-$(PlatformName)-$(ConfigurationName)\lib"
+	IntermediateDirectory="$(SolutionDir)\..\QtHmi-$(PlatformName)-$(ConfigurationName)\obj\$(ProjectName)"
+	>
+	<UserMacro
+		Name="QTDIR"
+		Value="$(SolutionDir)\..\..\..\Qt_shadowbuild\Qt484\build-win32\"
+		PerformEnvironmentSet="true"
+	/>
+</VisualStudioPropertySheet>
